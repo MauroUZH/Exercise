@@ -1,0 +1,33 @@
+---
+title: "STA426 Week1"
+author: "Mauro Schlaepfer"
+date: "17 September 2018"
+output: pdf_document
+---
+
+
+
+# Part 2
+```{r}
+set.seed(20)
+Sample <- rlnorm(n=100,meanlog =1,sdlog=0.25)
+hist(Sample, main = "Histogram of a Log Normal Distribution")
+hist(log(Sample), main = "Histogram of a Log Normal Distribution on the log scale")
+mu <- mean(Sample)
+var <- var(Sample)
+```
+
+I sample a Log Normal Distribution with 100 observations, a mean of 1 and a standard deviation of 0.25. Then I plot a histogram of this sample aswell as the log of the sample.
+
+$\mu$ of the Sample = 
+```{r, echo=FALSE}
+mu
+```
+
+
+
+$\sigma^2$ of the Sample = 
+
+```{r, echo=FALSE}
+var
+```
