@@ -1,2 +1,2 @@
 # Exercise
-![Home](C:\Users\mschl\OneDrive\Pictures\2015-07\IMG_0010)
+![Home](IMG_0010)
